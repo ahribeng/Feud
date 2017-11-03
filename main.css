@@ -1,0 +1,199 @@
+body {
+    background:#f69d9d;
+    padding: 25px;
+    font-size: 65px;
+}
+.btn {
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #f69d9d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:2px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+.gameBoard .score#team2 {
+    right: 10px;
+    top: 20px;
+}
+#answers{
+    width: 100%; 
+}
+#answers>div {
+    display: inline-block;
+    width: 45%;
+}
+.answer .back span {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 45px;
+}
+.answer .back {
+    font-size: 25px;
+    text-align: left;
+    height: 75px;
+    line-height: 75px;
+}
+.answer b {
+    position: absolute;
+    right: 0;
+    width: 55px;
+    text-align: center;
+    font-size: 35px;
+    border-left: 2px solid #003c7b;
+}
+.answerblock{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 75px;
+    margin: 4px;
+    width: 95%;
+}
+.answer span {
+  margin: 10px;
+}
+.answer > div {
+    top: -2px;
+    left: -2px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    line-height: 100%;
+    height: 100%;
+    border: 2px solid #f69d9d;
+    line-height: 75px;
+}
+.answerblock > div{
+    background: #f69d9d;
+}
+.answer {
+  width: 100%;
+  height: 100%;
+}
+.front span {
+  color: white;
+  font-size: 55px;
+  height: 2em;
+  margin: 0 auto;
+  width: 2.5em;
+}
+.questionblock{
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    line-height: 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #003c7b;
+    text-shadow: initial;
+    text-align: center;
+    border: 1px solid black;
+    background: #deeeff;
+    margin-bottom: 15px;
+}
+.questionblock span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 50px;
+}
+#questions{
+    font-size: 50px;
+}
+.gameBoard {
+    position: relative;
+    font-family: helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+    margin: auto;
+    background: #fff6ec;
+    background-repeat: repeat;
+    background-position: center center;
+}
+.gameBoard .score#team1 {
+    left: 10px;
+    top: 20px;
+    }
+  .gameBoard .score {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    font-size: 45px;
+    height: 50px;
+    line-height: 50px;
+    width: 75px;
+    padding: 20px;
+    color: #f69d9d;
+    border: 2px solid #f69d9d;
+}
+.gameBoard .score#boardScore {
+    height: 75px;
+    line-height: 75px;
+    width: 125px;
+    font-size: 60px;
+    left: 0;
+    right: 0;
+    top: 20px;
+}
+.modal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modal > div {
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 20px 13px 20px;
+}
+img{
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+    width:700px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+        }
+#questionblock{
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #f69d9d;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#strikes{
+
+    color: red;
+    font-size: 45px;  
+    height: 75px;
+    line-height: 75px;
+    width: 400px;
+    font-size: 60px;
+    left: 200px;
+    top: 20px;
+    text-align: right;
+}

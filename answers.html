@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="gameBoard">
+            <div id="questionblock">
+                <input type='text' placeholder='Question' class='btn' id='questioninput' list="q">
+                <datalist id="q">
+                </datalist> 
+            </div>
+            <div id="answers">
+                <div id ="answersLeft"></div>
+                <div id ="answersRight"></div>
+            </div>
+            <div id="gifModal" class="modal">
+                <div id="gif"></div>
+            </div>
+        </div>
+        <script src="js/questions.js"></script>
+        <script src="js/trie.js"></script>
+        <script src="js/answers.js"></script>
+    </body>
+</html>

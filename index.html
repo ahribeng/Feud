@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="gameBoard">
+            <div id="strikes"></div>
+            <div class="score" id="boardScore">0</div>
+            <div class="score" id="team1">0</div>
+            <div class="score" id="team2">0</div>
+            <div id="questionblock">
+                <span id="questions"></span>
+            </div>
+            <div id="answers">
+                <div id ="answersLeft"></div>
+                <div id ="answersRight"></div>
+            </div>
+            <div id="gifModal" class="modal">
+                <div id="gif"></div>
+            </div>
+        
+            <button id="team1_add" class="btn">Team 1</button>
+            <button id="strike" class="btn">strike</button>
+            <button id="team2_add" class="btn">Team 2</button>
+        </div>
+    </body>
+    <script src="js/questions.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/index.js"></script>
+</html>
